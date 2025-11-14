@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Sala Moderna Elegante",
+    "subtitle": "Salas de Lujo",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/c_fill,w_1920,h_1080,q_auto:best,f_auto/v1757513041/sala_modern_fssjsa.png",
+    "category": "Salas"
+  },
+  {
+    "id": 2,
+    "title": "Sala Bella con Cojines",
+    "subtitle": "Confort Premium",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/c_fill,w_1920,h_1080,q_auto:best,f_auto/v1757513040/sala_bella_cojines_cafe_owfnqq.png",
+    "category": "Salas"
+  },
+  {
+    "id": 3,
+    "title": "Mesa Silvania Elegante",
+    "subtitle": "Comedores Exclusivos",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/c_fill,w_1920,h_1080,q_auto:best,f_auto/v1757512902/mesa_silvania_mitenampa_gtftwy.png",
+    "category": "Comedores"
+  },
+  {
+    "id": 4,
+    "title": "Mesa Familiar 4 Puestos",
+    "subtitle": "Comedores Familiares",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/c_fill,w_1920,h_1080,q_auto:best,f_auto/v1757512901/mesa_4puestos_rgnfuk.png",
+    "category": "Comedores"
+  },
+  {
+    "id": 5,
+    "title": "Alcoba Contemporánea",
+    "subtitle": "Descanso Perfecto",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1920&h=1080&fit=crop&q=80",
+    "category": "Alcobas"
+  },
+  {
+    "id": 6,
+    "title": "Decoración Hogareña",
+    "subtitle": "Detalles que Marcan",
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1920&h=1080&fit=crop&q=80",
+    "category": "Decoración"
+  }
+]

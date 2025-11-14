@@ -1,0 +1,193 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/* React Slick CSS */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@theme {
+    --font-inter: "Inter", "Sans-Serif";
+    --font-serif: "Playfair Display", "serif";
+    
+    /* Colores primarios (vinos/rojos) */
+    --color-primary-50: #fdf2f4;
+    --color-primary-100: #fce7ea;
+    --color-primary-200: #f9d0d9;
+    --color-primary-300: #f4a8ba;
+    --color-primary-400: #ec7896;
+    --color-primary-500: #e04973;
+    --color-primary-600: #cb2d56;
+    --color-primary-700: #a91f45;
+    --color-primary-800: #8c1c3e;
+    --color-primary-900: #641B2E;
+    --color-primary-950: #420c1c;
+    
+    /* Colores secundarios (borgoña) */
+    --color-secondary-50: #fef2f2;
+    --color-secondary-100: #fde6e6;
+    --color-secondary-200: #fbd1d1;
+    --color-secondary-300: #f7a8a8;
+    --color-secondary-400: #f17575;
+    --color-secondary-500: #e64646;
+    --color-secondary-600: #d32f2f;
+    --color-secondary-700: #b71c1c;
+    --color-secondary-800: #8A2D3B;
+    --color-secondary-900: #7f1d1d;
+    --color-secondary-950: #450a0a;
+    
+    /* Colores cálidos (dorados) */
+    --color-warm-50: #fefbf0;
+    --color-warm-100: #fef7e0;
+    --color-warm-200: #fdecc0;
+    --color-warm-300: #fbdc95;
+    --color-warm-400: #f8c968;
+    --color-warm-500: #f5b547;
+    --color-warm-600: #e9972c;
+    --color-warm-700: #c17723;
+    --color-warm-800: #9b5d20;
+    --color-warm-900: #7c4a1f;
+    --color-warm-950: #42230d;
+    
+    /* Colores especiales */
+    --color-accent: #D4A574;
+    --color-cream: #FAF6F0;
+    --color-coffee: #8B4513;
+    --color-sage: #9CAF88;
+    
+    /* Neutrales */
+    --color-neutral-50: #fafaf9;
+    --color-neutral-100: #f5f5f4;
+    --color-neutral-200: #e7e5e4;
+    --color-neutral-300: #d6d3d1;
+    --color-neutral-400: #a8a29e;
+    --color-neutral-500: #78716c;
+    --color-neutral-600: #57534e;
+    --color-neutral-700: #44403c;
+    --color-neutral-800: #292524;
+    --color-neutral-900: #1c1917;
+    --color-neutral-950: #0c0a09;
+}
+
+.banner_slide_item {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos personalizados para slick carousel */
+.slick-slider {
+    height: 100vh !important;
+}
+
+.slick-list {
+    height: 100vh !important;
+}
+
+.slick-track {
+    height: 100vh !important;
+}
+
+.slick-slide > div {
+    height: 100vh !important;
+}
+
+.custom-dots {
+    bottom: 30px !important;
+    z-index: 50 !important;
+}
+
+.custom-dots li button:before {
+    color: white !important;
+    opacity: 0.5 !important;
+    font-size: 14px !important;
+}
+
+.custom-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: var(--color-warm-500) !important;
+}
+
+/* Estilos para testimonials slider */
+.testimonials-slider .slick-dots {
+    bottom: -50px !important;
+    position: relative !important;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonials-dots li button:before {
+    color: var(--color-warm-500) !important;
+    opacity: 0.4 !important;
+    font-size: 16px !important;
+}
+
+.testimonials-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: var(--color-warm-500) !important;
+    transform: scale(1.2);
+}
+
+.testimonials-slider .slick-slide {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.testimonials-slider .slick-list {
+    margin: 0 -15px;
+}
+
+/* Clases de texto para colores personalizados */
+@layer utilities {
+  .text-primary-50 { color: var(--color-primary-50); }
+  .text-primary-100 { color: var(--color-primary-100); }
+  .text-primary-200 { color: var(--color-primary-200); }
+  .text-primary-300 { color: var(--color-primary-300); }
+  .text-primary-400 { color: var(--color-primary-400); }
+  .text-primary-500 { color: var(--color-primary-500); }
+  .text-primary-600 { color: var(--color-primary-600); }
+  .text-primary-700 { color: var(--color-primary-700); }
+  .text-primary-800 { color: var(--color-primary-800); }
+  .text-primary-900 { color: var(--color-primary-900); }
+  .text-primary-950 { color: var(--color-primary-950); }
+  
+  .text-secondary-50 { color: var(--color-secondary-50); }
+  .text-secondary-100 { color: var(--color-secondary-100); }
+  .text-secondary-200 { color: var(--color-secondary-200); }
+  .text-secondary-300 { color: var(--color-secondary-300); }
+  .text-secondary-400 { color: var(--color-secondary-400); }
+  .text-secondary-500 { color: var(--color-secondary-500); }
+  .text-secondary-600 { color: var(--color-secondary-600); }
+  .text-secondary-700 { color: var(--color-secondary-700); }
+  .text-secondary-800 { color: var(--color-secondary-800); }
+  .text-secondary-900 { color: var(--color-secondary-900); }
+  .text-secondary-950 { color: var(--color-secondary-950); }
+  
+  .text-warm-50 { color: var(--color-warm-50); }
+  .text-warm-100 { color: var(--color-warm-100); }
+  .text-warm-200 { color: var(--color-warm-200); }
+  .text-warm-300 { color: var(--color-warm-300); }
+  .text-warm-400 { color: var(--color-warm-400); }
+  .text-warm-500 { color: var(--color-warm-500); }
+  .text-warm-600 { color: var(--color-warm-600); }
+  .text-warm-700 { color: var(--color-warm-700); }
+  .text-warm-800 { color: var(--color-warm-800); }
+  .text-warm-900 { color: var(--color-warm-900); }
+  .text-warm-950 { color: var(--color-warm-950); }
+  
+  .text-accent { color: var(--color-accent); }
+  .text-cream { color: var(--color-cream); }
+  .text-coffee { color: var(--color-coffee); }
+  .text-sage { color: var(--color-sage); }
+  
+  .text-neutral-50 { color: var(--color-neutral-50); }
+  .text-neutral-100 { color: var(--color-neutral-100); }
+  .text-neutral-200 { color: var(--color-neutral-200); }
+  .text-neutral-300 { color: var(--color-neutral-300); }
+  .text-neutral-400 { color: var(--color-neutral-400); }
+  .text-neutral-500 { color: var(--color-neutral-500); }
+  .text-neutral-600 { color: var(--color-neutral-600); }
+  .text-neutral-700 { color: var(--color-neutral-700); }
+  .text-neutral-800 { color: var(--color-neutral-800); }
+  .text-neutral-900 { color: var(--color-neutral-900); }
+  .text-neutral-950 { color: var(--color-neutral-950); }
+}

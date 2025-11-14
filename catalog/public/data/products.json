@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Sofá Modular Premium",
+    "category": "Salas",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/v1757513042/Sala_bella_sinCojines_ydjhht.png",
+    "description": "Sofá modular de lujo en tela premium con estructura de madera maciza. Diseño contemporáneo que se adapta a cualquier espacio.",
+    "features": ["Tela Antimanchas", "Estructura Maciza", "Cojines Desmontables", "5 Módulos"]
+  },
+  {
+    "id": 2,
+    "name": "Sala Esquinera Ejecutiva",
+    "category": "Salas",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/v1757513041/sala_modern_fssjsa.png",
+    "description": "Elegante sala esquinera en cuero genuino, perfecta para espacios amplios y ejecutivos.",
+    "features": ["Cuero Genuino", "Base Cromada", "Reclinable", "8 Puestos"]
+  },
+  {
+    "id": 3,
+    "name": "Sofá Cama Multifuncional",
+    "category": "Salas",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/v1757513040/sala_bella_cojines_cafe_owfnqq.png",
+    "description": "Sofá cama con almacenamiento integrado, ideal para apartamentos y espacios pequeños.",
+    "features": ["Cama Matrimonial", "Almacenamiento", "Tela Resistente", "Fácil Conversión"]
+  },
+  {
+    "id": 4,
+    "name": "Comedor Rústico Familiar",
+    "category": "Comedores",
+    "image": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?w=500&h=400&fit=crop",
+    "description": "Mesa de comedor en madera maciza con acabado rústico, incluye 6 sillas tapizadas.",
+    "features": ["Madera Maciza", "6 Sillas", "Acabado Resistente", "Diseño Atemporal"]
+  },
+  {
+    "id": 5,
+    "name": "Comedor Mesa Arbeláez",
+    "category": "Comedores",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/v1757513321/mesa_arbelaez_sizou_yazewj.png",
+    "description": "Elegante comedor de diseño moderno con mesa de vidrio templado y base metálica.",
+    "features": ["Vidrio Templado", "Base Metálica", "8 Sillas", "Diseño Minimalista"]
+  },
+  {
+    "id": 6,
+    "name": "Mesa Silvania Elegante",
+    "category": "Comedores",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/v1757512902/mesa_silvania_mitenampa_gtftwy.png",
+    "description": "Mesa familiar perfecta para reuniones, con acabado premium y diseño clásico.",
+    "features": ["Madera Premium", "Base Sólida", "6 Sillas", "Acabado Lacado"]
+  },
+  {
+    "id": 7,
+    "name": "Mesa 8 Puestos Familiar",
+    "category": "Comedores",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/v1757512901/mesa_8puesto_qmwpca.png",
+    "description": "Amplia mesa familiar para 8 personas, ideal para grandes reuniones familiares.",
+    "features": ["Capacidad 8 Personas", "Base Reforzada", "8 Sillas", "Diseño Robusto"]
+  },
+  {
+    "id": 8,
+    "name": "Mesa 4 Puestos Compacta",
+    "category": "Comedores",
+    "image": "https://res.cloudinary.com/dx9eu0yh1/image/upload/v1757512901/mesa_4puestos_rgnfuk.png",
+    "description": "Mesa compacta ideal para espacios pequeños, perfecta para familias de 4 personas.",
+    "features": ["Tamaño Compacto", "4 Sillas", "Fácil Montaje", "Diseño Funcional"]
+  },
+  {
+    "id": 9,
+    "name": "Alcoba Contemporánea",
+    "category": "Alcobas",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500&h=400&fit=crop",
+    "description": "Set completo de alcoba con cama king, 2 mesas de noche y cómoda con espejo.",
+    "features": ["Cama King", "2 Mesas Noche", "Cómoda con Espejo", "Madera Premium"]
+  },
+  {
+    "id": 10,
+    "name": "Juego de Alcoba Clásica",
+    "category": "Alcobas",
+    "image": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=500&h=400&fit=crop",
+    "description": "Set clásico de alcoba en madera con detalles tallados a mano.",
+    "features": ["Cama Queen", "Tallado Manual", "2 Nocheros", "Armario 4 Puertas"]
+  },
+  {
+    "id": 11,
+    "name": "Espejo Decorativo Grande",
+    "category": "Decoración",
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=500&h=400&fit=crop",
+    "description": "Espejo decorativo con marco dorado, perfecto para salas y recámaras.",
+    "features": ["Marco Dorado", "120cm x 80cm", "Cristal HD", "Fácil Instalación"]
+  },
+  {
+    "id": 12,
+    "name": "Lámpara de Mesa Elegante",
+    "category": "Decoración",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&h=400&fit=crop",
+    "description": "Lámpara de mesa con pantalla de tela y base cerámica artesanal.",
+    "features": ["Base Cerámica", "Pantalla Tela", "Luz LED", "Interruptor Táctil"]
+  },
+  {
+    "id": 13,
+    "name": "Cuadro Arte Moderno",
+    "category": "Decoración",
+    "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=500&h=400&fit=crop",
+    "description": "Cuadro de arte moderno abstracto, impreso en lienzo de alta calidad.",
+    "features": ["Lienzo Premium", "Marco Incluido", "80cm x 60cm", "Arte Original"]
+  }
+]
