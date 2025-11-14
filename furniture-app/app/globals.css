@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF6F0;
+  --foreground: #1c1917;
+}
+
+@theme inline {
+  /* Colores personalizados - Paleta de muebles */
+  --color-primary-50: #fdf2f4;
+  --color-primary-100: #fce7ea;
+  --color-primary-200: #f9d0d9;
+  --color-primary-300: #f4a8ba;
+  --color-primary-400: #ec7896;
+  --color-primary-500: #e04973;
+  --color-primary-600: #cb2d56;
+  --color-primary-700: #a91f45;
+  --color-primary-800: #8c1c3e;
+  --color-primary-900: #641B2E;
+  --color-primary-950: #420c1c;
+
+  --color-secondary-50: #fef2f2;
+  --color-secondary-100: #fde6e6;
+  --color-secondary-200: #fbd1d1;
+  --color-secondary-300: #f7a8a8;
+  --color-secondary-400: #f17575;
+  --color-secondary-500: #e64646;
+  --color-secondary-600: #d32f2f;
+  --color-secondary-700: #b71c1c;
+  --color-secondary-800: #8A2D3B;
+  --color-secondary-900: #7f1d1d;
+  --color-secondary-950: #450a0a;
+
+  --color-warm-50: #fefbf0;
+  --color-warm-100: #fef7e0;
+  --color-warm-200: #fdecc0;
+  --color-warm-300: #fbdc95;
+  --color-warm-400: #f8c968;
+  --color-warm-500: #f5b547;
+  --color-warm-600: #e9972c;
+  --color-warm-700: #c17723;
+  --color-warm-800: #9b5d20;
+  --color-warm-900: #7c4a1f;
+  --color-warm-950: #42230d;
+
+  --color-accent: #D4A574;
+  --color-cream: #FAF6F0;
+  --color-coffee: #8B4513;
+  --color-sage: #9CAF88;
+
+  /* Fuentes */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: 'Playfair Display', serif;
+
+  /* Variables de tema */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-900);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-700);
+}
